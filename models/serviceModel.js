@@ -12,7 +12,7 @@ const serviceSchema = new mongoose.Schema({
     },
     manager: {
         type: String,
-        required: [true, 'A service must have a price']
+        required: [true, 'A service must have a manager']
     },
 });
 
